@@ -1,0 +1,41 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+}
+
+h1 {
+  font-style: italic;
+  color: #373fff;
+}
+
+#jumbotron{
+  background: url("https://cdn-resources.crowdcat.co/media/62f92466-84ef-4a74-828b-670838c56d0f.jpg");
+  backround-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 700px;
+  margin-left: 0px;
+  margin-right: 5px;
+  
+}
+
+.review{
+  color: rgb(191, 5, 2);
+  font-family: 'Merriweather', serif;
+  font-weight:500
+}
+#title{
+  color: black;
+  
+}
+#wrapper{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px
+}
+
+#top{
+text-align: center 
+}
